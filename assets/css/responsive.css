@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* Layout: Large Devices. */
+@media only screen and (min-width: 1010px) {
+
+}
+
+@media only screen and (max-width: 1670px) {
+    .container-form
+{
+    padding: 0 7rem;
+}
+
+}
+
+@media only screen and (max-width: 1399px) {
+
+}
+
+/* Layout: Large Devices. */
+@media only screen and (max-width: 1400px) {
+    .authentication-title
+    {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1399px) {
+    .item-order .second-part a:first-child,
+.item-order .second-part button:first-child
+{
+    margin-left: 0px;
+    margin-bottom: 15px;
+} 
+ 
+}
+/* Layout: Large Devices. */
+@media only screen and (max-width: 1348px) {
+}
+/* Layout: Large Devices. */
+@media only screen and (max-width: 1000px) {
+
+   
+}
+
+/* Tablet Layout: 991px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 1249px) {
+    .container-form {
+        padding: 0px 1.5rem 0 0;
+    }
+    .otp-form-group .inputs 
+{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.otp-form-group .inputs input
+{
+    margin-bottom: 16px;
+}
+}
+
+/* Tablet Layout: 1199px. */
+@media only screen and (max-width: 1199px) {
+    .text-download-application-sec p.title {
+        padding-left: 0;
+    }
+    .text-download-application-sec .button_download_watad_app {
+        min-width: 137px;
+    }
+    .text-download-application-sec .list-inside-button li img {
+        margin-left: 7px;
+    }
+    .text-download-application-sec .list-inside-button li p {
+        font-size: 13px;
+    }
+    .text-download-application-sec .list-inside-button li span {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .item-steps {
+        padding: 24px 10px 42px 10px;
+    }
+  
+    .item-steps .body h3 {
+        font-size: 15px;
+        line-height: 11px;
+    }
+    
+    .item-steps .body img
+    {
+        max-height: 64px;
+    }
+}
+/* Medium Layout: 991px. */
+@media only screen and (max-width: 991px) {
+
+    .text-services-part p,.text-services-part h3
+    {
+        padding-left: 0;
+    }
+    .item-order .second-part a:first-child, .item-order .second-part button:first-child {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .order-total-price p
+    {
+        margin-bottom: 25px;
+    }
+    .flex-direction-col
+    {
+        flex-direction: column-reverse;
+    }
+    .list-inline-for-order-details li:first-child {
+        margin-bottom: 22px;
+    }
+    table.list-description-tabel tr th:first-child {
+        padding-left: 10px;
+    }
+  
+    .card.complete-account
+    {
+        padding: 52px 16px;
+    }
+    .login-form
+    {
+        padding-left: 0;
+    }
+    .otp-form-group .inputs input {
+        width: 51px;
+        height: 59px;
+        margin-left: 4px;
+    }
+  
+    .title-sec p {
+        padding-left: 0 !important;
+        font-size: 31px;
+        line-height: 41px;
+    }
+    .top-footer {
+        padding: 64px 19px 45px 20px;
+    }
+    .download-application-sec .bg-sec {
+        padding: 76px 43px 76px 43px;
+    }
+    .services-text-part h2 {
+        font-size: 32px;
+        padding-left: 0;
+    }
+    .title-section p
+    {
+        line-height: 50px;
+    }
+    .text-about-section
+    {
+        padding: 0;
+        margin: 35px 0;
+    }
+    .item-steps
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+    .dashed-border
+    {
+        margin-bottom: 25px;
+    }
+    .item-steps::after
+    {
+        content: none;
+    }
+    .description-part p
+    {
+        padding-left: 0;
+    }
+    .bg-black {
+        padding: 96px 25px;
+    }
+    .item_Business_enhancement {
+        padding-left: 0%;
+    }
+    .tabs-for-profile-page .nav {
+        padding: 13px 6px;
+    }
+    .tabs-for-profile-page .nav-link , .tabs-for-profile-page .nav-logout-button
+    {
+        font-size: 15px;
+    }
+    .nav-link img ,.nav-logout-button img
+    {
+        margin-left: 5px;
+    }
+    .pricing-tap-content .content-header p {
+        font-size: 22px;
+    }
+    .button-tab-header {
+        padding: 11px 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .item-button-part-show-details .read-more-border-button {
+        margin: 15px 0 0 0;
+    }
+    .item-order .second-part a:first-child, .item-order .second-part button:first-child, .item-order .second-part a, .item-order .second-part button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/* Mobile Layout: 767px. */
+@media only screen and (max-width: 767px) {
+    .page-link {
+        border: none;
+        width: 33px;
+        height: 33px;
+        margin: 0 3px;
+        text-align: center;
+        line-height: 37px;
+        color: #1E1E1E;
+        font-size: 17px;
+        border-radius: 75px;
+        padding: 0;
+        font-family: 'BalooBhaijaan2-Medium';
+    }
+    .received-product tr, .received-product td
+    {
+        display: block;
+    }
+    a.image-popup-vertical-fit.p-relative
+    {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .item-order .second-part a:first-child, .item-order .second-part button:first-child {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .tabs-content-for-profile-page
+    {
+        padding: 35px 25px;
+    }
+
+    .tabs-for-profile-page .nav {
+        padding: 8px 6px 0 6px;
+    }
+    .tabs-content-for-profile-page
+    {
+        margin-top: 35px;
+    }
+    .tabs-for-profile-page
+    {
+        background: #fff;
+        overflow: auto;
+        border-radius: 20px;
+    }
+    .tabs-for-profile-page::-webkit-scrollbar {
+        width: 2px;
+        height: 4px;
+    }
+    .tabs-for-profile-page::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .tabs-for-profile-page::-webkit-scrollbar-thumb {
+        background: #991220;
+        border-radius: 25px;
+    }
+    .tabs-for-profile-page .nav-link
+    {
+        padding: 0px 26px;
+    }
+    .tabs-for-profile-page .nav {
+        display: flex !important;
+        flex-wrap: nowrap;
+    }
+    .tabs-for-profile-page .nav-pills .nav-link.active, .tabs-for-profile-page .nav-pills .show>.nav-link
+    {
+        background: unset;
+    }
+    .tabs-for-profile-page .nav-link ,.tabs-for-profile-page .nav-logout-button
+    {
+        width: unset;
+        white-space: nowrap;
+    }
+    .download-contract-file-action
+    {
+        margin: 35px 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .button-option-group
+    {
+        text-align: center;
+    }
+    .agree-button , .deny-button ,.reduction-request
+    {
+        min-width: 120px;
+        margin-bottom: 20px;
+    }
+    .alert-reject-order,.alert-accept-order
+    {
+        width: auto;
+    }
+   
+    .card.article-section .card-body p ,.card.article-section .card-body h3
+    {
+        overflow: unset;
+    white-space: unset;
+    text-overflow: unset;
+    }
+    .otp-form-group .inputs input {
+        width: 71px;
+        height: 68px;
+        margin-left: 4px;
+    }
+    .business-title {
+        font-size: 33px;
+        line-height: 49px;
+        margin-bottom: 46px;
+    }
+    .text-download-application-sec ul.list-download-app {
+        text-align: center;
+    }
+    .download-application-sec .bg-sec {
+        padding: 76px 26px 76px 24px;
+    }
+    .text-download-application-sec p.title
+    {
+        font-size: 35px;
+    }
+    .text-download-application-sec
+    {
+        margin-top: 35px;
+    }
+    .text-download-application-sec .button_download_watad_app {
+        min-width: 164px;
+    }
+    .list-inside-button li {
+        margin-left: 4px !important;
+    }
+    .authentication
+    {
+        padding-top: 0;
+    }
+  .authentication .row
+  {
+    flex-direction: column-reverse;
+  }
+  .authentication-img {
+    width: 79%;
+    display: block;
+    margin: 0 auto 47px auto;
+}
+    .login-form.container-form
+    {
+        box-shadow: 0px 0px 100px 0px rgb(212 212 212 / 25%);
+        border: none;
+        border-radius: 24px;
+        background: #fff;
+        padding: 40px 40px;
+        margin: 0 6%;
+        transform: translateX(0);
+        transition: transform 0.55s ease-in-out;
+    }
+    .text-article-span p {
+        font-size: 40px;
+        line-height: 54px;
+        margin-bottom: 6px;
+    }
+    .img-business-enhancement
+    {
+        display: none;
+    }
+    .padding-around-button
+    {
+        margin: 0 auto;
+    }
+    
+    .button_download_watad_app
+    {
+        min-width: 160px;
+    }
+    .description-part p
+    {
+        padding-left: 0;
+    }
+    .list-link-footer
+    {
+        margin: 35px 0;
+    }
+    .social-icon-footer {
+        display: flex;
+        justify-content: center;
+    }
+    .list-link-footer
+    {
+        text-align: center;
+    }
+    .bottom-footer p
+    {
+        text-align: center;
+    }
+  
+}
+
+/* Small Device : 590px. */
+@media only screen and (max-width: 576px) {
+    .first-item-part .img-part img {
+        display: flex;
+        margin-left: 17px;
+        margin-bottom: 15px;
+    }
+    .download-contract-file-action {
+        padding: 15px 0px;
+    }
+    .card.order-detailss-card
+    {
+        padding: 40px 20px;
+    }
+    .agree-button , .deny-button ,.reduction-request
+    {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        line-height: 35px;
+        min-height: 49px;
+    }
+    table.list-description-tabel tr ,table.list-description-tabel tr th:first-child
+    {
+        display: block;
+        margin-bottom: 11px;
+    }
+    table.list-description-tabel tr th:last-child span {
+        padding-left: 20px;
+        display: block;
+    }
+    .card.successfully-account .card-body h3 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .card.successfully-account .card-header
+    {
+        margin-bottom: 20;
+    }
+    .read-more-border-button
+    {
+        width: 100%;
+        text-align: center;
+    }
+    header {
+        padding: 17px 0;
+    }
+    .login-form.container-form {
+        margin: 0 4%;
+        padding: 20px 20px;
+    }
+    .authentication-title {
+        font-size: 30px;
+    }
+    .authentication {
+        padding: 30px 0 30px 0;
+    }
+    .logo-header-part a img {
+        padding: 0;
+        width: 47px;
+    }
+    ul.list-link-services li
+    {
+        width: 100%;
+    }
+    .button_download_watad_app {
+        min-width: 155px;
+        margin: 0 auto;
+    }
+    
+    .list-inside-button li span {
+        font-size: 11px;
+    }
+    .list-inside-button li p {
+        font-size: 12px;
+    }
+
+}
+/* Small Device : 480px. */
+@media only screen and (max-width: 480px) {
+    ul.list-download-app
+    {
+        display: block;
+    }
+    .list-download-app li
+    {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    .vg-sidebar.left .vg-sidebar-content
+    {
+        width: 100%;
+    }
+    .go-to-profile-page
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .vg-nav-hamburger--lines span
+    {
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+}
+
+/* Extra Small Device : 420px. */
+@media only screen and (max-width: 1230px) {
+}
+
+/* Extra Small Device : 320px. */
+@media only screen and (max-width: 789px) {
+}
+
+@media only screen and (max-width: 1413px) {
+}
+@media (max-width: 992px) {
+
+}
